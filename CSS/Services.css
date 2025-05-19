@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color:#FFE6C7} /*background of the website*/
+
+#Logo 		{float:left; padding-top: 20px;} /*moves the logo to the left*/
+#Icon 		{float:right; padding-top: 20px;} /*moves the icon to the right*/
+#navigation 
+{
+	clear: both;
+	border-top:solid black 2px;
+	border-bottom:solid black 2px; 
+	word-spacing: 35px;
+	margin-bottom: 20px;
+	padding:10px;
+	font-family:Arial;
+}
+
+#navigation a {text-decoration: none;
+  color: black; transition: all 0.2s ease;}
+
+#navigation a:hover { color: #E89500;
+  font-size: 18px;}
+
+#Tajuk {width:675px;}
+#Tajuk h1 
+{
+	color:#E89500;
+	font-family:Arial;
+	border-bottom: solid #B3B3B3 2px;height: 50px;
+	margin-bottom: 25px;
+	padding:8px;
+	width: 880px;
+}
+#Tajuk p {font-family:Arial;width:600px;margin-bottom: 20px;}
+
+
+#Footer {clear:both;border-top:solid #B3B3B3 2px;font-family:Arial;}
+#Footer {text-align: center; padding-bottom: 2px;}
+
+
+#wrapper{background-color: white;width:900px; margin: 0px auto;}
+#wrapper2{background-color: white;width:950px; margin: 0px auto;}
+
+#LivingRoom {
+width:250px;
+border-top: solid red 10px;
+background-color:#A2A2A2;
+margin-right: 20px;
+}
+
+#LivingRoom b, #LivingRoom p, #LivingRoom a {font-family: Arial}
+
+#ContemporaryRoom {
+width:250px;
+border-top: solid blue 10px;
+background-color:#A2A2A2;
+}
+
+#ContemporaryRoom b, #ContemporaryRoom p, #ContemporaryRoom a {font-family: Arial}
+
+#TraditionalRoom {
+width:250px;
+border-top: solid green 10px;
+background-color:#A2A2A2;
+margin-left: 20px;
+}
+
+#TraditionalRoom b, #TraditionalRoom p, #TraditionalRoom a {font-family: Arial}
+
+#LivingRoom, #ContemporaryRoom, #TraditionalRoom {
+  display: inline-block;
+  margin-right: 0 10px; /* space between the boxes */
+  vertical-align: top; /* align at the top */
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+#gallery {
+	display: inline-block;
+	padding-bottom: 15px;
+	width: 300px;
+}
+
+#gallery img {
+	width:140px;
+	margin-right: 10px;
+	border:solid #B3B3B3 2px;
+	transition: all 0.2s ease;
+		padding:3px;
+		margin:6px
+		
+}
+
+#pictures img:hover {border:solid #585858}
+
+#bottom p {font-family: Arial}
+
+#room-wrapper {
+  text-align: center;
+}
